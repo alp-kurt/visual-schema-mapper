@@ -108,3 +108,7 @@ The GitHub Actions workflow `.github/workflows/ci-cd.yml` executes the same step
 3. Install Playwright browsers and execute the e2e suite.
 4. On `main` pushes, run Semantic Release to publish a new version.
 5. If release succeeds, build the app and deploy the `dist/` bundle to GitHub Pages.
+
+## Author
+
+[Alp Kurt](https://alpkurt.com), [LinkedIn](https://www.linkedin.com/in/alp-kurt/)
