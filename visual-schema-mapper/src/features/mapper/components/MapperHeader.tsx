@@ -15,7 +15,7 @@ export const MapperHeader = ({ mappedCount, onSave, isSaving }: MapperHeaderProp
         type="button"
         onClick={onSave}
         disabled={mappedCount === 0 || isSaving}
-        className="inline-flex items-center gap-2 rounded-md bg-brand-orange px-4 py-2 text-sm font-semibold text-black shadow-brand-orange/30 transition enabled:shadow-lg enabled:hover:bg-brand-orange/90 disabled:cursor-not-allowed disabled:bg-brand-orange/40"
+        className="inline-flex items-center gap-2 rounded-md bg-brand-orange px-4 py-2 text-sm font-semibold text-white shadow-brand-orange/30 transition enabled:shadow-lg enabled:hover:bg-brand-orange/90 disabled:cursor-not-allowed disabled:bg-brand-orange/40"
       >
         {isSaving ? 'Saving...' : 'Save'}
       </button>
